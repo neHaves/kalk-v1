@@ -8,3 +8,13 @@ C:\Users\Afina\Desktop\Калькулятор\Калькулятор\obj\Debug\�
 C:\Users\Afina\Desktop\Калькулятор\Калькулятор\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
 C:\Users\Afina\Desktop\Калькулятор\Калькулятор\obj\Debug\Калькулятор.exe
 C:\Users\Afina\Desktop\Калькулятор\Калькулятор\obj\Debug\Калькулятор.pdb
+C:\Users\Afina\Desktop\kalk v1\Калькулятор\bin\Debug\Калькулятор.exe.config
+C:\Users\Afina\Desktop\kalk v1\Калькулятор\bin\Debug\Калькулятор.exe
+C:\Users\Afina\Desktop\kalk v1\Калькулятор\bin\Debug\Калькулятор.pdb
+C:\Users\Afina\Desktop\kalk v1\Калькулятор\obj\Debug\Калькулятор.csproj.AssemblyReference.cache
+C:\Users\Afina\Desktop\kalk v1\Калькулятор\obj\Debug\Калькулятор.Form1.resources
+C:\Users\Afina\Desktop\kalk v1\Калькулятор\obj\Debug\Калькулятор.Properties.Resources.resources
+C:\Users\Afina\Desktop\kalk v1\Калькулятор\obj\Debug\Калькулятор.csproj.GenerateResource.cache
+C:\Users\Afina\Desktop\kalk v1\Калькулятор\obj\Debug\Калькулятор.csproj.CoreCompileInputs.cache
+C:\Users\Afina\Desktop\kalk v1\Калькулятор\obj\Debug\Калькулятор.exe
+C:\Users\Afina\Desktop\kalk v1\Калькулятор\obj\Debug\Калькулятор.pdb

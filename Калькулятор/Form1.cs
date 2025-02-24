@@ -51,6 +51,7 @@ namespace Калькулятор
                     else
                         MessageBox.Show("Ошибка: Деление на ноль!");
                     break;
+                case "^": result = Math.Pow(firstNumber, secondNumber); break;
             }
 
             txtDisplay.Text = result.ToString();
@@ -130,6 +131,36 @@ namespace Калькулятор
             firstNumber = Convert.ToDouble(txtDisplay.Text);
             operation = "/";
             txtDisplay.Clear();
+        }
+
+        private void btnsqrt_Click(object sender, EventArgs e)
+        {
+            double number = Convert.ToDouble(txtDisplay.Text);
+
+            if (number >= 0)
+                txtDisplay.Text = Math.Sqrt(number).ToString();
+            else
+                MessageBox.Show("Ошибка: Нельзя вычислить корень из отрицательного числа!");
+        }
+
+        private void btnpower_Click(object sender, EventArgs e)
+        {
+            firstNumber = Convert.ToDouble(txtDisplay.Text);
+            operation = "^";
+            txtDisplay.Clear();
+        }
+
+        private void btnBackspace_Click(object sender, EventArgs e)
+        {
+            if (txtDisplay.Text.Length > 0)
+            {
+                txtDisplay.Text = txtDisplay.Text.Substring(0, txtDisplay.Text.Length - 1);
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

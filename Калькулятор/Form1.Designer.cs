@@ -45,6 +45,10 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.btnsqrt = new System.Windows.Forms.Button();
+            this.btnpower = new System.Windows.Forms.Button();
+            this.btnBackspace = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtDisplay
@@ -69,7 +73,7 @@
             // 
             // btnSubtract
             // 
-            this.btnSubtract.Location = new System.Drawing.Point(336, 79);
+            this.btnSubtract.Location = new System.Drawing.Point(336, 108);
             this.btnSubtract.Name = "btnSubtract";
             this.btnSubtract.Size = new System.Drawing.Size(75, 23);
             this.btnSubtract.TabIndex = 2;
@@ -99,7 +103,7 @@
             // 
             // btnequally
             // 
-            this.btnequally.Location = new System.Drawing.Point(336, 108);
+            this.btnequally.Location = new System.Drawing.Point(255, 195);
             this.btnequally.Name = "btnequally";
             this.btnequally.Size = new System.Drawing.Size(75, 23);
             this.btnequally.TabIndex = 5;
@@ -109,7 +113,7 @@
             // 
             // btnClean
             // 
-            this.btnClean.Location = new System.Drawing.Point(336, 137);
+            this.btnClean.Location = new System.Drawing.Point(93, 195);
             this.btnClean.Name = "btnClean";
             this.btnClean.Size = new System.Drawing.Size(75, 23);
             this.btnClean.TabIndex = 6;
@@ -217,11 +221,56 @@
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
+            // btnsqrt
+            // 
+            this.btnsqrt.Location = new System.Drawing.Point(336, 166);
+            this.btnsqrt.Name = "btnsqrt";
+            this.btnsqrt.Size = new System.Drawing.Size(75, 23);
+            this.btnsqrt.TabIndex = 17;
+            this.btnsqrt.Text = "√";
+            this.btnsqrt.UseVisualStyleBackColor = true;
+            this.btnsqrt.Click += new System.EventHandler(this.btnsqrt_Click);
+            // 
+            // btnpower
+            // 
+            this.btnpower.Location = new System.Drawing.Point(336, 137);
+            this.btnpower.Name = "btnpower";
+            this.btnpower.Size = new System.Drawing.Size(75, 23);
+            this.btnpower.TabIndex = 18;
+            this.btnpower.Text = "^";
+            this.btnpower.UseVisualStyleBackColor = true;
+            this.btnpower.Click += new System.EventHandler(this.btnpower_Click);
+            // 
+            // btnBackspace
+            // 
+            this.btnBackspace.Location = new System.Drawing.Point(336, 79);
+            this.btnBackspace.Name = "btnBackspace";
+            this.btnBackspace.Size = new System.Drawing.Size(75, 23);
+            this.btnBackspace.TabIndex = 19;
+            this.btnBackspace.Text = "⌫";
+            this.btnBackspace.UseVisualStyleBackColor = true;
+            this.btnBackspace.Click += new System.EventHandler(this.btnBackspace_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(95, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(316, 24);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Владимир Приходько ИСП(11)23-1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 302);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnBackspace);
+            this.Controls.Add(this.btnpower);
+            this.Controls.Add(this.btnsqrt);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -240,7 +289,7 @@
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtDisplay);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Калькулятор ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,6 +314,10 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btnsqrt;
+        private System.Windows.Forms.Button btnpower;
+        private System.Windows.Forms.Button btnBackspace;
+        private System.Windows.Forms.Label label1;
     }
 }
 
